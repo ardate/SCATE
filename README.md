@@ -38,7 +38,7 @@ The files contain the following additional information besides the brat annotati
 * END-OFFSET: end offset for the target sentence
 * END-SEG: end of segment pair
 
-##Example entry
+## Example entry
 <START-SEG 6>
 <START-OFFSET-SOURCE>962
 <SRC>The mill in Fos-sur-Mer is the only exception.
