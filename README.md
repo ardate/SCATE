@@ -12,19 +12,19 @@ RBMT | Systran<sup>1</sup> | 2014 | 698
 ![The SCATE MT error taxonomy](https://github.com/ardate/SCATE/blob/master/images/scate_taxonomy.png)
 
 The annotations are stored in a tab-delimited format based on brat rapid annotation tool - [standoff format](http://brat.nlplab.org/standoff.html) and consists of three types of entries:
-1. Error annotations of the main error categories consist of:
-   - Annotation ID (indicated with "T")
-   - Error category
+1. Error annotations:
+   - ID (indicated with "T")
+   - Main error category
    - Start offset of the text span
    - End offset of the text span
    - Annotated text
-2. Error annotations of the sub-categories consist of:
-   - Annotation ID (indicated with "A")
+2. Sub-category of a given error annotation (if applicable):
+   - ID (indicated with "A")
    - Parent error category
    - Parent error annotation ID 
-   - Error category
-3. Links between error annotations 
-   - Link ID (indicated with "R")
+   - Error category (sub-category)
+3. Links between error annotations:
+   - ID (indicated with "R")
    - Link name
    - Linked error annotation ID (from)
    - Linked error annotation ID (to)
