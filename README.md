@@ -23,7 +23,7 @@ The annotations are stored in a tab-delimited format based on brat rapid annotat
    - Parent error category
    - Parent error annotation ID 
    - Error category (sub-category)
-3. Links between error annotations:
+3. Links between error annotations (if applicable):
    - ID (indicated with "R")
    - Link name
    - Linked error annotation ID (from)
