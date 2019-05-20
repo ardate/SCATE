@@ -10,7 +10,7 @@ SMT | Google Translate | 2014 | 2963
 NMT | Google Translate | 2017 | 2963
 RBMT | Systran<sup>1</sup> | 2014 | 698
 
-![The SCATE MT error taxonomy](https://github.ugent.be/atezcan/SCATE/blob/master/images/scate_taxonomy.png)
+![The SCATE MT error taxonomy](https://github.com/ardate/SCATE/tree/master/images/scate_taxonomy.png)
 
 The data format is based on brat rapid annotation tool - [standoff format](http://brat.nlplab.org/standoff.html). The txt files contain the same brat annotation structure (as described in brat documentation) and the following additional information:
 * START-SEG: start of segment pair (source-target), with the ID of the segment pair
@@ -31,7 +31,7 @@ Note1: This version of the data set has been checked further for consistency of 
 Note2: The NMT data-set has been annotated with an additional error category "Accuracy > Mistranslation > SemanticallyUnrelated". A subset of this NMT data-set with the additional error category has been analysed in Van Brussel et al. (2018).
 
 Data set | MT system | MT output obtained on | No. sentence pairs
---- | --- | ---
+--- | --- | --- | ---
 SMT | Google Translate | 2014 | 2963
 NMT | Google Translate | 2017 | 2963
 RBMT | Systran<sup>1</sup> | 2014 | 698
