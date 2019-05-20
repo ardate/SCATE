@@ -27,14 +27,9 @@ Please refer to the following studies for the details of the SCATE error taxonom
 * Tezcan, A. (2018). Informative quality estimation of machine translation output. PhD Thesis.
 * Van Brussel, L., Tezcan, A., & Macken, L. (2018). A fine-grained error analysis of NMT, PBMT and RBMT output for English-to-Dutch. In N. Calzolari, K. Choukri, C. Cieri, T. Declerck, S. Goggi, K. Hasida, H. Isahara, et al. (Eds.), Proceedings of the Eleventh International Conference on Language Resources and Evaluation (pp. 3799–3804). Presented at the Eleventh International Conference on Language Resources and Evaluation, Miyazaki, Japan: European Language Resources Association (ELRA).
 
-Note1: This version of the data set has been checked further for consistency of error annotations throughout the data-set and therefore contains additional error annotations than the version used in the above-mentioned studies.
-Note2: The NMT data-set has been annotated with an additional error category "Accuracy > Mistranslation > SemanticallyUnrelated". A subset of this NMT data-set with the additional error category has been analysed in Van Brussel et al. (2018).
+Note 1: This version of the data set has been checked further for consistency of error annotations throughout the data-set and therefore contains additional error annotations than the version used in the above-mentioned studies.
 
-Data set | MT system | MT output obtained on | No. sentence pairs
---- | --- | --- | ---
-SMT | Google Translate | 2014 | 2963
-NMT | Google Translate | 2017 | 2963
-RBMT | Systran<sup>1</sup> | 2014 | 698
+Note 2: The NMT data-set has been annotated with an additional error category "Accuracy > Mistranslation > SemanticallyUnrelated". A subset of this NMT data-set with the additional error category has been analysed in Van Brussel et al. (2018).
 
 
 <sup>1</sup> <sub><sup>Systran Enterprise Edition, version 7.5. All domains, dictionaries, translation choice les
