@@ -25,9 +25,9 @@ The annotations are stored in a tab-delimited format based on brat rapid annotat
    - Error category
 3. Links between error annotations 
    - Link ID (indicated with "R")
-	 - Link name
-	 - Linked error annotation ID (from)
-	 - Linked error annotation ID (to)
+   - Link name
+   - Linked error annotation ID (from)
+   - Linked error annotation ID (to)
 
 The files contain the following additional information besides the brat annotation information (as described above and in brat documentation):
 * START-SEG: start of segment pair (source-target), with the ID of the segment pair
@@ -38,7 +38,7 @@ The files contain the following additional information besides the brat annotati
 * END-OFFSET: end offset for the target sentence
 * END-SEG: end of segment pair
 
-##Example entry##
+##Example entry
 <START-SEG 6>
 <START-OFFSET-SOURCE>962
 <SRC>The mill in Fos-sur-Mer is the only exception.
@@ -65,7 +65,7 @@ Note 2: The NMT data-set has been annotated with an additional error category "A
 <sup>1</sup> <sub><sup>Systran Enterprise Edition, version 7.5. All domains, dictionaries, translation choice les
 and translation models were disabled prior to obtaining the MT output.</sup></sub>
 
-## References ##
+## References 
 * Tezcan, A., Hoste, V., & Macken, L. (2017). SCATE taxonomy and corpus of machine translation errors . In G. C. Pastor & I. Durán-Muñoz (Eds.), Trends in E-tools and resources for translators and interpreters (Vol. 45, pp. 219–244). Brill | Rodopi.
 * Tezcan, A. (2018). Informative quality estimation of machine translation output. PhD Thesis.
 * Van Brussel, L., Tezcan, A., & Macken, L. (2018). A fine-grained error analysis of NMT, PBMT and RBMT output for English-to-Dutch. In N. Calzolari, K. Choukri, C. Cieri, T. Declerck, S. Goggi, K. Hasida, H. Isahara, et al. (Eds.), Proceedings of the Eleventh International Conference on Language Resources and Evaluation (pp. 3799–3804). Presented at the Eleventh International Conference on Language Resources and Evaluation, Miyazaki, Japan: European Language Resources Association (ELRA).
