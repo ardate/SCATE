@@ -38,10 +38,10 @@ The files contain the following additional information besides the brat annotati
 * END-OFFSET: end offset for the target sentence
 * END-SEG: end of segment pair
 
-Example entry
----
-><pre><START-SEG 6></pre>
-><pre><START-OFFSET-SOURCE>962</pre>
+## Example entry
+```
+><START-SEG 6>
+><<START-OFFSET-SOURCE>962
 ><SRC>The mill in Fos-sur-Mer is the only exception.
 ><START-OFFSET-TARGET>1009
 ><TRG>De molen in Fos-sur-Mer is de enige uitzondering.
@@ -52,6 +52,7 @@ Example entry
 >A27	Mistranslation_WordSense_subcat T43 Cont
 >R9	MisTra_Sense Arg1:T22 Arg2:T43	
 ><END-SEG 6>
+```
 
 
 
