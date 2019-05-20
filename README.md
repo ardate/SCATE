@@ -38,19 +38,20 @@ The files contain the following additional information besides the brat annotati
 * END-OFFSET: end offset for the target sentence
 * END-SEG: end of segment pair
 
-## Example entry
-<START-SEG 6>\
-<START-OFFSET-SOURCE>962\
-<SRC>The mill in Fos-sur-Mer is the only exception.\
-<START-OFFSET-TARGET>1009\
-<TRG>De molen in Fos-sur-Mer is de enige uitzondering.\
-<END-OFFSET>1059\
-T22	Mistranslation_WordSense 966 970	mill\
-T43	Mistranslation_WordSense 1012 1017	molen\
-A25	Mistranslation_WordSense_subcat T22 Cont\
-A27	Mistranslation_WordSense_subcat T43 Cont\
-R9	MisTra_Sense Arg1:T22 Arg2:T43	\
-<END-SEG 6>\
+Example entry
+---
+<START-SEG 6>
+<START-OFFSET-SOURCE>962
+<SRC>The mill in Fos-sur-Mer is the only exception.
+<START-OFFSET-TARGET>1009
+<TRG>De molen in Fos-sur-Mer is de enige uitzondering.
+<END-OFFSET>1059
+T22	Mistranslation_WordSense 966 970	mill
+T43	Mistranslation_WordSense 1012 1017	molen
+A25	Mistranslation_WordSense_subcat T22 Cont
+A27	Mistranslation_WordSense_subcat T43 Cont
+R9	MisTra_Sense Arg1:T22 Arg2:T43	
+<END-SEG 6>
 
 
 
