@@ -40,8 +40,8 @@ The files contain the following additional information besides the brat annotati
 
 Example entry
 ---
-><START-SEG 6>
-><START-OFFSET-SOURCE>962
+><pre><START-SEG 6></pre>
+><pre><START-OFFSET-SOURCE>962</pre>
 ><SRC>The mill in Fos-sur-Mer is the only exception.
 ><START-OFFSET-TARGET>1009
 ><TRG>De molen in Fos-sur-Mer is de enige uitzondering.
